@@ -6,6 +6,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
+local sound = Instance.new("Sound")
 UICorner.Parent = frame
 while_cool_down = 3
 COOL_DOWN = 4
@@ -55,6 +56,9 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 TextLabel.TextColor3 = Color3.fromRGB(Random)
+sound.SoundId = "rbxassetid://8503529139"
+sound:Play()
+sound.Parent = workspace
 wait(COOL_DOWN)
 frame:TweenSize(UDim2.new(0, 9,0, 12),"Out",Enum.EasingStyle.Linear,0.7,true)
 TextLabel:Destroy()
