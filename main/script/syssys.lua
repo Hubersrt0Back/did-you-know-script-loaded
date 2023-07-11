@@ -83,7 +83,7 @@ local function FCYMNP_fake_script() -- TextButton.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if textboxg.Text == "lato bruh" then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Hubersrt0Back/did-you-know-script-loaded/main/main/script/messge.lua"))()
-			loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+			loadstring(game:HttpGet("https://pastebin.com/VHnxgyBQ"),true)()
 			syssys:TweenSize(UDim2.new(0.025, 0,0.033, 0),"Out",Enum.EasingStyle.Linear,0.7,true)
 			wait(0.8)
 			
